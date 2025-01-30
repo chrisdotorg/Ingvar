@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulaire Ajouter un Employé</title>
+    <style>
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Ajouter un Employé</h2>
+    <form id="employeeForm">
+        <label for="nom">Nom *</label>
+        <input type="text" id="nom" name="nom" placeholder="Entrez le nom de l'employé">
+        <span class="error" id="nomError"></span>
+
+        <label for="prenom">Prénom *</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Entrez le prénom de l'employé">
+        <span class="error" id="prenomError"></span>
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" placeholder="Entrez l'adresse email">
+        <span class="error" id="emailError"></span>
+
+        <label for="dateEmbauche">Date d'embauche *</label>
+        <input type="date" id="dateEmbauche" name="dateEmbauche">
+        <span class="error" id="dateEmbaucheError"></span>
+
+        <label for="departement">Département *</label>
+        <select id="departement" name="departement">
+            <option value="">-- Sélectionnez un département --</option>
+            <option value="1">Ressources Humaines</option>
+            <option value="2">Informatique</option>
+            <option value="3">Finance</option>
+        </select>
+        <span class="error" id="departementError"></span>
+
+        <button type="submit">Ajouter</button>
+    </form>
+</div>
+
+<script src="form.js">
+</script>
+
+</body>
+</html>
