@@ -1,5 +1,5 @@
 #! /usr/bin/env/ python3 
-def compter_nombres_distincts():
+"""def compter_nombres_distincts():
     # Demander à l'utilisateur de saisir le nombre d'éléments
     n = int(input("Entrez le nombre d'éléments à traiter : "))
     
@@ -27,3 +27,5 @@ def compter_nombres_distincts():
 
 # Appel de la fonction principale
 compter_nombres_distincts()
+"""
+print ("hello world")
